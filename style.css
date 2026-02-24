@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -70,7 +68,6 @@ button {
 .right,
 .left {
     display: flex;
-    flex-wrap: wrap;
     padding: 48px;
     flex-direction: column;
 }
@@ -129,5 +126,25 @@ button {
 
 
 .author {
+    margin-right: -400px;
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+.container {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    
+}
+
+.west {
+    color: #e5e7eb;
 }
