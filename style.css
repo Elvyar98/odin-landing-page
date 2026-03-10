@@ -134,7 +134,7 @@ button {
 .cta {
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 100px;
 }
 .container {
     display: flex;
